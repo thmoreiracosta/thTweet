@@ -1,0 +1,96 @@
+body {
+
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  display: flex;
+}
+
+
+.sidebar-header {
+  border: 1px solid red;
+  flex-basis: 30%;
+}
+
+.sidebar-header__logo {
+
+}
+
+.sidebar-header__logo img {
+
+}
+
+.sidebar-header__navigation {
+
+}
+
+.sidebar-header__menuList {
+
+}
+
+.sidebar-header__menuItem {
+
+}
+
+.sidebar-header__menuItem img {
+
+}
+
+.sidebar-header__menuItem a {
+
+}
+
+/* MAIN */
+
+.main-content{
+  flex-basis: 70%;
+}
+
+.main-content__title {
+
+}
+
+.main-content__form {
+
+}
+.main-content__form textarea {
+
+}
+.main-content__form button {
+
+}
+
+.main-content__feed {
+
+}
+
+.main-content__listTweets {
+
+}
+
+.main-content__tweet {
+
+}
+
+.tweet__fotoPerfil {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.tweetConteiner {
+
+}
+.tweetConteiner h2 {
+
+}
+.tweetConteiner span {
+
+}
+
+.tweetConteiner p {
+
+}

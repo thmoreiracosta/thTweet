@@ -1,24 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/Global.css" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
     <title>ThTweet</title>
-</head>
+  </head>
 
-<body>
-    <header>
-        <figure>
-            <img src="./assets/img/bird 1.svg" alt="Logo ThTweet">
-            <figcaption hidden>Logo ThTweet</figcaption>
+  <body>
+    <div class="container">
+      <header class="sidebar-header">
+        <figure class="sidebar-header__logo">
+          <img src="./assets/img/bird 1.svg" alt="Logo ThTweet" />
+          <figcaption hidden>Logo ThTweet</figcaption>
         </figure>
 
+        <nav class="sidebar-header__navigation">
+          <ul class="sidebar-header__menuList">
+            <li class="sidebar-header__menuItem">
+              <img src="./assets/img/Home.png" alt="" />
+              <a href="">Página Inicial</a>
+            </li>
+            <li class="sidebar-header__menuItem">
+              <img src="./assets/img/Hashtag.png" alt="" />
+              <a href="">Explorar</a>
+            </li>
+            <li class="sidebar-header__menuItem">
+              <img src="./assets/img/Notification.png" alt="" />
+              <a href="">Notificações</a>
+            </li>
+            <li class="sidebar-header__menuItem">
+              <img src="./assets/img/Group.png" alt="" />
+              <a href="">Mensagens</a>
+            </li>
+            <li class="sidebar-header__menuItem">
+              <img src="./assets/img/Group (1).png" alt="" />
+              <a href="">Itens salvos</a>
+            </li>
+            <li class="sidebar-header__menuItem">
+              <img src="./assets/img/Group (2).png" alt="" />
+              <a href="">Listas</a>
+            </li>
+            <li class="sidebar-header__menuItem">
+              <img
+                class="tweet__fotoPerfil"
+                src="https://avatars.githubusercontent.com/u/77851466?v=4"
+                alt=""
+              />
+              <a href="">Perfil</a>
+            </li>
+            <li class="sidebar-header__menuItem">
+              <img src="./assets/img/Group (3).png" alt="" />
+              <a href="">Mais</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-    </header>
-
-</body>
-
+      <main class="main-content">
+        <h2 class="main-content__title">Home</h2>
+        <form action="#" class="main-content__form">
+          <textarea
+            name="tweetText"
+            placeholder="O que está acontecendo?"
+          ></textarea>
+          <button type="submit">Tweetar</button>
+        </form>
+        <section class="main-content__feed">
+          <ul class="main-content__listTweets">
+            <li class="main-content__tweet">
+              <img class="tweet__fotoPerfil" src="" alt="" />
+              <div class="tweetConteiner">
+                <img
+                  class="tweet__fotoPerfil"
+                  src="https://avatars.githubusercontent.com/u/77851466?v=4"
+                  alt=""
+                />
+                <h2>Thiago Costa</h2>
+                <span>@thmoreiracosta</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Obcaecati eaque inventore, nihil soluta dolorem ab
+                  repudiandae? Quia cupiditate voluptas dolorem, eaque quisquam
+                  perferendis, illum totam saepe iure adipisci maiores nam!
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
