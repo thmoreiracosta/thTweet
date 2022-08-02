@@ -40,8 +40,20 @@
   font-weight: bold;
 }
 
+.sidebar-header__menuItem a:hover {
+	background-color: #1da1f2;
+	color: #fff;
+	border-radius: 30px;
+	padding: 10px 20px;
+	transition: all 0.2s ease-in-out;
+}
+
 #sidebar-text__menu {
   color: #1da1f2;
+}
+
+#sidebar-text__menu:hover {
+	color: #fff;
 }
 
 .sidebar__fotoPerfil {
@@ -89,10 +101,18 @@
 	cursor: pointer;
 }
 
+.main-content__form button:hover {
+	background-color: #1da1f2;
+	opacity: 0.5;
+}
+
 .main-content__feed {
 }
 
 .main-content__listTweets {
+	display: flex;
+	flex-flow: column-reverse nowrap;
+	
 }
 
 .main-content__tweet {
