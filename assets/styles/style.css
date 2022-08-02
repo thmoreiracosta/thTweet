@@ -1,96 +1,127 @@
-body {
-
-}
-
 .container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  
-  display: flex;
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
 }
-
 
 .sidebar-header {
-  border: 1px solid red;
-  flex-basis: 30%;
+	flex-basis: 30%;
+  margin-top: 30px;
 }
 
 .sidebar-header__logo {
-
+	margin-bottom: 50px;
 }
 
 .sidebar-header__logo img {
-
+  width: 18%;
 }
 
 .sidebar-header__navigation {
-
 }
 
 .sidebar-header__menuList {
-
 }
 
 .sidebar-header__menuItem {
-
+	margin-bottom: 25px;
 }
 
 .sidebar-header__menuItem img {
-
+	max-width: 30px;
 }
 
 .sidebar-header__menuItem a {
+	color: #000000;
+	font-size: 22px;
+	vertical-align: top;
+	margin-left: 15px;
+  font-weight: bold;
+}
 
+#sidebar-text__menu {
+  color: #1da1f2;
+}
+
+.sidebar__fotoPerfil {
+	border-radius: 50%;
 }
 
 /* MAIN */
 
-.main-content{
-  flex-basis: 70%;
+.main-content {
+	flex-basis: 70%;
+  margin-top: 40px;
+	border-left: 1px solid #e7ecf0;
+	border-right: 1px solid #e7ecf0;
 }
 
 .main-content__title {
-
+	padding: 15px 30px;
+  font-weight: bold;
 }
 
 .main-content__form {
-
+	padding: 10px 30px;
+	border-top: 1px solid #e7ecf0;
+	border-bottom: 10px solid #e7ecf0;
+	text-align: right;
 }
 .main-content__form textarea {
-
+	display: block;
+	width: 100%;
+	border: none;
+	outline: none;
+	resize: none;
+	height: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
 }
 .main-content__form button {
-
+	background-color: #1da1f2;
+	border: none;
+  font-weight: bold;
+	padding: 12px 25px;
+	margin-bottom: 20px;
+	color: #fff;
+	border-radius: 20px;
+	cursor: pointer;
 }
 
 .main-content__feed {
-
 }
 
 .main-content__listTweets {
-
 }
 
 .main-content__tweet {
-
+	padding: 20px 32px;
+	display: flex;
+	align-items: flex-start;
+  border-bottom: 1px solid #e7ecf0;
 }
 
 .tweet__fotoPerfil {
-  width: 10%;
-  border-radius: 50%;
+	max-width: 50px;
+	max-height: 50px;
+	border-radius: 50%;
 }
 
 .tweetConteiner {
-
+	margin-left: 20px;
 }
-.tweetConteiner h2 {
+.tweetConteiner h3 {
+	display: inline-block;
 
 }
 .tweetConteiner span {
-
+	color: #828282;
+  
 }
 
 .tweetConteiner p {
-
+	margin-top: 15px;
+  font-size: 15px;
+  color: #333333;
 }

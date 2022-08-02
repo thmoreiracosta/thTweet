@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="https://abs.twimg.com/responsive-web/client-web/icon-ios.b1fc7278.png" type="image/x-icon">    
     <link rel="stylesheet" href="./assets/styles/Global.css" />
     <link rel="stylesheet" href="./assets/styles/style.css" />
     <title>ThTweet</title>
@@ -21,7 +28,7 @@
           <ul class="sidebar-header__menuList">
             <li class="sidebar-header__menuItem">
               <img src="./assets/img/Home.png" alt="" />
-              <a href="">Página Inicial</a>
+              <a id="sidebar-text__menu" href="">Página Inicial</a>
             </li>
             <li class="sidebar-header__menuItem">
               <img src="./assets/img/Hashtag.png" alt="" />
@@ -45,7 +52,7 @@
             </li>
             <li class="sidebar-header__menuItem">
               <img
-                class="tweet__fotoPerfil"
+                class="sidebar__fotoPerfil"
                 src="https://avatars.githubusercontent.com/u/77851466?v=4"
                 alt=""
               />
@@ -62,35 +69,19 @@
       <main class="main-content">
         <h2 class="main-content__title">Home</h2>
         <form action="#" class="main-content__form">
-          <textarea
+          <textarea            
             name="tweetText"
             placeholder="O que está acontecendo?"
           ></textarea>
           <button type="submit">Tweetar</button>
         </form>
         <section class="main-content__feed">
-          <ul class="main-content__listTweets">
-            <li class="main-content__tweet">
-              <img class="tweet__fotoPerfil" src="" alt="" />
-              <div class="tweetConteiner">
-                <img
-                  class="tweet__fotoPerfil"
-                  src="https://avatars.githubusercontent.com/u/77851466?v=4"
-                  alt=""
-                />
-                <h2>Thiago Costa</h2>
-                <span>@thmoreiracosta</span>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Obcaecati eaque inventore, nihil soluta dolorem ab
-                  repudiandae? Quia cupiditate voluptas dolorem, eaque quisquam
-                  perferendis, illum totam saepe iure adipisci maiores nam!
-                </p>
-              </div>
-            </li>
+          <ul class="main-content__listTweets">            
           </ul>
         </section>
       </main>
     </div>
+
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
